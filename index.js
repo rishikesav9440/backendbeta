@@ -18,10 +18,10 @@ app.use(cors({
 
 // Database connection
 const pool = mysql.createPool({
-  host: srv1339.hstgr.io,
-  user: u794390554_grf,
-  password: 7fN!+JUqAp2G,
-  database: u794390554_grf,
+  host: 'srv1339.hstgr.io',
+  user: 'u794390554_grf',
+  password: '7fN!+JUqAp2G',
+  database: 'u794390554_grf',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
