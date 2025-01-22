@@ -53,7 +53,7 @@ app.get('/posts', async (req, res) => {
       FROM posts
       WHERE is_published = 1 
       AND is_approved = 1
-      
+      ORDER BY date_time ASC
     `);
 
     res.json(posts);
